@@ -66,7 +66,7 @@ This dataset was shared with us to apply our skills in Excel, but I chose to go 
 - COVID-19 Dip & Surge Timeline
 - Correlation: Global Oil Prices vs. CPI Movement
 
-> 📁 See `/presentation/CPI_Case_Study_Presentation.pdf` for visuals and detailed commentary.
+> 📁 See `/CPI Inflation PPT_Soumya.pdf` for visuals and detailed commentary.
 
 ---
 
@@ -89,8 +89,8 @@ This dataset was shared with us to apply our skills in Excel, but I chose to go 
 
 ## 📎 Access the Project
 
-- 📂 Excel File with full analysis: `/Excel_Sheets/CPI_Inflation_Analysis.xlsx`
-- 🖼️ Final PPT Presentation: `/presentation/CPI_Case_Study_Presentation.pdf`
+- 📂 Excel File with full analysis: `/CPI Inflation Case Study (Soum).xlsx`
+- 🖼️ Final PPT Presentation: `/CPI Inflation PPT_Soumya.pdf`
 
 ---
 
