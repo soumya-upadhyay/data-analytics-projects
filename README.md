@@ -1,4 +1,4 @@
-# 📈 CPI Inflation Trend Analysis – India (2017–2024)
+# 📈 CPI Inflation Trend Analysis – India (2017–2023)
 
 This project explores and analyzes India’s Consumer Price Index (CPI) trends between 2017 and 2024. It was completed as part of my Data Analytics course with **Coding Ninjas** to practice Excel-based data analysis and insight generation.
 
