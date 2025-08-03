@@ -86,6 +86,6 @@ Worked with an e-commerce dataset to segment customers by behavior and create re
 - [LinkedIn](https://linkedin.com/in/soumyachanderupadhyay)  
 - [GitHub](https://github.com/soumya-upadhyay/)  
 - Email: soumya.upadhyay19@gmail.com
-- Instagram: @soumvlog(https://www.instagram.com/soumvlog)  
+- Instagram: [@soumvlog](https://www.instagram.com/soumvlog)  
 
 If you explore any of these projects and have questions, feel free to connect or drop a message. I’d love to hear your thoughts or collaborate!
