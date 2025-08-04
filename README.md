@@ -17,7 +17,7 @@ Each project folder contains:
 
 ---
 
-### ✅ 1. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study))
+### ✅ 1. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study)
 
 **Tools**: Excel  
 **Skills**: Data cleaning, Pivot Tables, Trend Analysis, Dashboarding  
