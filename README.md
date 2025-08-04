@@ -32,7 +32,33 @@ A deep dive into India's Consumer Price Index (CPI) data. Answered problem state
 
 ---
 
-### 📊 2. [Sales Dashboard using Power BI](link-coming-soon)
+### ✅ 2. [US Healthcare Cost & Utilization Analysis](https://github.com/soumya-upadhyay/data-analytics-projects/tree/US-HealthCare-CaseStudy)
+
+**Tools**: Excel (Power Query, Pivot Tables)  
+**Skills**: Data Cleaning, Power Query, Data Analysis, Charting, Insight Generation  
+
+An exploratory case study of US healthcare cost and utilization data to identify patterns in diseases, demographics, medication usage, and hospital stay durations. Focused on using advanced Excel skills to handle large datasets and draw meaningful insights.
+
+#### 🔍 Problem Statements Answered:
+- Which diseases contribute the highest to overall healthcare spending?
+- What trends exist between age, gender, and disease type?
+- How does medication usage vary across patient groups?
+- Are short hospital stays becoming more frequent, and for which conditions?
+
+#### 📌 Outcome:
+- Cleaned and transformed data using **Power Query**
+- Used **Pivot Tables** for multi-dimensional analysis
+- Created visual summaries and dashboards:
+  - *Disease-Specific Cost Analysis: The Financial Impact of Illness and Demographics*
+  - *Medication and Hospital Stay: Patient Counts and Duration Trends*
+
+#### 🧠 Recommendations:
+- Implement a **disease-centric resource allocation** strategy to better manage high-cost conditions
+- Optimize healthcare processes for **high-volume, short-duration hospital stays**
+
+---
+
+### 📊 3. [Sales Dashboard using Power BI](link-coming-soon)
 
 **Tools**: Power BI, DAX  
 **Skills**: Data visualization, KPI building, interactive dashboards  
@@ -43,7 +69,7 @@ A fictional retail dataset turned into an interactive dashboard to track sales, 
 
 ---
 
-### 🐍 3. [Python EDA](link-coming-soon)
+### 🐍 4. [Python EDA](link-coming-soon)
 
 **Tools**: Python (pandas, matplotlib, seaborn)  
 **Skills**: Exploratory Data Analysis, Visualization, Data Wrangling  
@@ -54,7 +80,7 @@ Analyzed Netflix titles to understand content trends, genres, and country-wise d
 
 ---
 
-### 🧠 4. [SQL Case Study – Customer Segmentation](link-coming-soon)
+### 🧠 5. [SQL Case Study – Customer Segmentation](link-coming-soon)
 
 **Tools**: MySQL  
 **Skills**: Data querying, joins, CTEs, window functions  
@@ -67,7 +93,6 @@ Worked with an e-commerce dataset to segment customers by behavior and create re
 
 ## 📌 Upcoming Projects
 
-- 📈 Healthcare Dataset Analysis (Excel + Power BI)
 - 🧼 Automated Data Cleaning using Python
 
 ---
