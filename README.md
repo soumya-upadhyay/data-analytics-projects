@@ -58,14 +58,40 @@ An exploratory case study of US healthcare cost and utilization data to identify
 
 ---
 
-### 📊 3. [Sales Dashboard using Power BI](link-coming-soon)
+### 📊 3. [Netflix Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Netflix-Case-Study)
 
-**Tools**: Power BI, DAX  
-**Skills**: Data visualization, KPI building, interactive dashboards  
+**Tools**: Power BI (Power Query, DAX, Visualizations)
+**Skills**: Data Cleaning, Data Modeling, Data Analysis, Dashboarding, Data Storytelling
 
-A fictional retail dataset turned into an interactive dashboard to track sales, profit, and product category performance over time.
+This project is a comprehensive analysis of Netflix's movie and TV show data, leveraging **Power BI** to uncover key trends and audience insights. The goal was to answer critical business questions about content performance, including identifying top-rated titles, analyzing shifts in runtime and ratings over time, and understanding the impact of age certification. The process involved a complete data analytics workflow, from cleaning and modeling the data to creating interactive, story-driven visualizations that provide clear, actionable insights for stakeholders.
 
-📌 **Outcome**: Gained confidence in DAX, filters, slicers, and building story-driven visuals.
+---
+
+#### 🔍 Problem Statements Answered:
+
+- Which was the **best movie and TV show** overall in the last 50 years?
+- How has the distribution of movies changed over the past few years, and is the dataset **skewed towards recent releases**?
+- Has the average **IMDb score been trending** up or down over the last 50 years?
+- Have more people been voting for movies and shows on IMDb over the last 50 years?
+- How has the average **runtime changed** over the last 50 years?
+- How does a movie's **age certification affect its rating**?
+
+---
+
+#### 📌 Outcome:
+
+- Cleaned and transformed raw data using **Power Query Editor**.
+- Created a robust data model with established relationships.
+- Designed an interactive dashboard with visuals to address all problem statements.
+- Developed a data-driven narrative to explain key findings.
+
+---
+
+#### 🧠 Recommendations:
+
+- **Focus on high-quality, top-rated content** to drive user engagement.
+- Analyze **age certification trends** to better align content strategy with target audience preferences.
+- Monitor **average runtime trends** to optimize content production for modern viewing habits.
 
 ---
 
@@ -93,7 +119,7 @@ Worked with an e-commerce dataset to segment customers by behavior and create re
 
 ## 📌 Upcoming Projects
 
-- 🧼 Automated Data Cleaning using Python
+- 🧼 Power BI Project
 
 ---
 
