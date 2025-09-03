@@ -59,7 +59,7 @@ The core of this analysis was to answer key questions about the content on Netfl
 
 ### 📂 Access the Project
 
-* **Power BI File:** [Link to the Raw Data](https://github.com/soumya-upadhyay/data-analytics-projects/blob/Netflix-Case-Study/Netflix%20TV%20Shows%20and%20Movies.xlsx)]
+* **Power BI File:** [Link to the Raw Data](https://github.com/soumya-upadhyay/data-analytics-projects/blob/Netflix-Case-Study/Netflix%20TV%20Shows%20and%20Movies.xlsx)
 * **Report PDF:** [Link to Final Report/Dashboard PDF](https://github.com/soumya-upadhyay/data-analytics-projects/blob/Netflix-Case-Study/Netflix_Dashboard_Final.pbix)
 
 ---
