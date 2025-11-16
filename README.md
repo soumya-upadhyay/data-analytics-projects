@@ -78,14 +78,6 @@ The main objective of this case study was to answer key business questions acros
 
 ---
 
-### 📂 Access the Project
-
-* **Power BI File:** *(Add your PBIX file link here)*  
-* **Theme Files:** Included in this branch (`MinimalLightTheme.json`, `MinimalDarkTheme.json`)  
-* **Screenshots / Exports:** *(Add links if you upload visuals)*  
-
----
-
 ## 🧑‍💼 About Me
 
 I'm **Soumya Upadhyay**, a Programmatic Analyst transitioning into Data Analytics.  
