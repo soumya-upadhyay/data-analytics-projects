@@ -1,142 +1,105 @@
-# 📊 Data Analytics Portfolio – Soumya Upadhyay
+# 📊 Global Sales Data Analysis with Power BI
 
-Welcome! This repository showcases a curated selection of data analytics projects I've worked on as part of my transition into the data analytics field. These projects reflect my ability to clean, analyze, and visualize data using tools like **Excel**, **SQL**, **Power BI**, and **Python**, and to derive insights that support decision-making.
-
-I’m currently working as a Programmatic Analyst at IPG Mediabrands, handling the **Royal Caribbean International** client, and pursuing a Data Analytics certification with Coding Ninjas. This portfolio reflects my learning journey and interest in solving real-world business problems with data.
+This project is an end-to-end exploration of **global sales performance**, using **Power BI** to analyze revenue trends, product categories, customer segments, returns, and regional opportunities. As a complete case study, it demonstrates the transformation of raw transactional sales data into meaningful insights that support strategic decision-making.
 
 ---
 
-## 📁 Projects
+### ❓ Problem Statements
 
-Each project folder contains:
-- Cleaned data (or link to data source)
-- Tools used and key problem statements
-- Visuals (where applicable)
-- Insights and recommendations
-- Source files (.xlsx, .sql, .ipynb, .pbix, etc.)
+The main objective of this case study was to answer key business questions across product, customer, and regional dimensions. These insights help stakeholders understand performance drivers and areas of improvement.
 
----
-
-### ✅ 1. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study)
-
-**Tools**: Excel  
-**Skills**: Data cleaning, Pivot Tables, Trend Analysis, Dashboarding  
-
-A deep dive into India's Consumer Price Index (CPI) data. Answered problem statements such as:
-- Which categories contributed the most to inflation?
-- How did COVID-19 impact inflation?
-- Monthly shifts in the food basket
-- Influence of global events like oil price hikes on India's CPI
-
-📌 **Outcome**: Created a clean dashboard and summary with insights and recommendations.
+* Which **products and categories** generate the highest revenue and profit?  
+* Which **regions, countries, and territories** drive the most sales?  
+* How significant are **returns**, and which products have the highest return rates?  
+* Which **customer demographics** (income, education, gender) contribute most to revenue?  
+* How have **MTD, QTD, and YTD** revenues changed over time?  
+* What are the patterns in **weekday vs weekend** performance?  
+* Which metrics demonstrate **rolling trends** (10-day, 90-day, and 12-month windows)?
 
 ---
 
-### ✅ 2. [US Healthcare Cost & Utilization Analysis](https://github.com/soumya-upadhyay/data-analytics-projects/tree/US-HealthCare-CaseStudy)
+### 🛠️ Tools & Technologies
 
-**Tools**: Excel (Power Query, Pivot Tables)  
-**Skills**: Data Cleaning, Power Query, Data Analysis, Charting, Insight Generation  
-
-An exploratory case study of US healthcare cost and utilization data to identify patterns in diseases, demographics, medication usage, and hospital stay durations. Focused on using advanced Excel skills to handle large datasets and draw meaningful insights.
-
-#### 🔍 Problem Statements Answered:
-- Which diseases contribute the highest to overall healthcare spending?
-- What trends exist between age, gender, and disease type?
-- How does medication usage vary across patient groups?
-- Are short hospital stays becoming more frequent, and for which conditions?
-
-#### 📌 Outcome:
-- Cleaned and transformed data using **Power Query**
-- Used **Pivot Tables** for multi-dimensional analysis
-- Created visual summaries and dashboards:
-  - *Disease-Specific Cost Analysis: The Financial Impact of Illness and Demographics*
-  - *Medication and Hospital Stay: Patient Counts and Duration Trends*
-
-#### 🧠 Recommendations:
-- Implement a **disease-centric resource allocation** strategy to better manage high-cost conditions
-- Optimize healthcare processes for **high-volume, short-duration hospital stays**
+* **Power BI:** Used for cleaning, modeling, and visualization  
+  * `Power Query Editor`: Data cleaning, type correction, metadata prep  
+  * `DAX`: 30+ measures including time intelligence, rolling windows, Top-N ranking, contribution metrics  
+  * `Visualizations`: Interactive charts, drill-down hierarchies, slicer sync, bookmarks  
+* **JSON Theme Files**: Custom minimal light and dark modes for consistent UI/UX  
 
 ---
 
-### 📊 3. [Netflix Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Netflix-Case-Study)
+### 🧠 Approach
 
-**Tools**: Power BI (Power Query, DAX, Visualizations)
-**Skills**: Data Cleaning, Data Modeling, Data Analysis, Dashboarding, Data Storytelling
+1. **Data Cleaning and Transformation (Power Query Editor):**  
+   * Standardized data types, removed duplicates, and cleaned categorical fields  
+   * Structured tables for Calendar, Products, Customers, Territories, and Returns  
 
-This project is a comprehensive analysis of Netflix's movie and TV show data, leveraging **Power BI** to uncover key trends and audience insights. The goal was to answer critical business questions about content performance, including identifying top-rated titles, analyzing shifts in runtime and ratings over time, and understanding the impact of age certification. The process involved a complete data analytics workflow, from cleaning and modeling the data to creating interactive, story-driven visualizations that provide clear, actionable insights for stakeholders.
+2. **Data Modeling (Star Schema):**  
+   * Fact table: Sales  
+   * Dimensions: Calendar, Customers, Products, Subcategories, Categories, Territories  
+   * Ensured unidirectional filtering for performance  
+   * Marked Calendar as a **date table**  
 
----
+3. **DAX Development:**  
+   * Created core revenue/quantity/profit measures  
+   * Built advanced calculations:
+     - Time Intelligence (MTD, QTD, YTD, YoY)  
+     - Rolling metrics (10-day, 90-day, R12)  
+     - Customer insights (AOV, repeat purchase rate)  
+     - Contribution % and Top-N dynamic ranking  
+   * Added dynamic titles and context-aware calculations for storytelling  
 
-#### 🔍 Problem Statements Answered:
+4. **Dashboard Design & Visualization:**  
+   * Five-page interactive dashboard:
+     - Executive Summary  
+     - Product Performance  
+     - Customer Insights  
+     - Territory Insights  
+     - Time Intelligence  
+   * Slicers synced across pages  
+   * Drillthrough and tooltip report pages added  
+   * Clean layout using a custom minimal theme  
 
-- Which was the **best movie and TV show** overall in the last 50 years?
-- How has the distribution of movies changed over the past few years, and is the dataset **skewed towards recent releases**?
-- Has the average **IMDb score been trending** up or down over the last 50 years?
-- Have more people been voting for movies and shows on IMDb over the last 50 years?
-- How has the average **runtime changed** over the last 50 years?
-- How does a movie's **age certification affect its rating**?
-
----
-
-#### 📌 Outcome:
-
-- Cleaned and transformed raw data using **Power Query Editor**.
-- Created a robust data model with established relationships.
-- Designed an interactive dashboard with visuals to address all problem statements.
-- Developed a data-driven narrative to explain key findings.
-
----
-
-#### 🧠 Recommendations:
-
-- **Focus on high-quality, top-rated content** to drive user engagement.
-- Analyze **age certification trends** to better align content strategy with target audience preferences.
-- Monitor **average runtime trends** to optimize content production for modern viewing habits.
-
----
-
-### 🐍 4. [Python EDA](link-coming-soon)
-
-**Tools**: Python (pandas, matplotlib, seaborn)  
-**Skills**: Exploratory Data Analysis, Visualization, Data Wrangling  
-
-Analyzed Netflix titles to understand content trends, genres, and country-wise distribution.
-
-📌 **Outcome**: Practiced EDA techniques and visual storytelling using Python libraries.
+5. **Data Storytelling:**  
+   * Each page crafted to answer a clear set of business questions  
+   * Logical flow from summary → deep dives → trends  
+   * Visual hierarchy ensures insights are immediately interpretable  
 
 ---
 
-### 🧠 5. [SQL Case Study – Customer Segmentation](link-coming-soon)
+### 📈 Key Insights & Findings
 
-**Tools**: MySQL  
-**Skills**: Data querying, joins, CTEs, window functions  
-
-Worked with an e-commerce dataset to segment customers by behavior and create retention insights.
-
-📌 **Outcome**: Developed SQL fluency and business-focused analytical thinking.
-
----
-
-## 📌 Upcoming Projects
-
-- 🧼 Power BI Project
+* **Top Products:** A small number of SKUs drive the majority of total revenue.  
+* **High Return Categories:** Certain product groups show significantly higher return rates.  
+* **Regional Trends:** APAC and EMEA regions stand out with consistent growth patterns.  
+* **Customer Segments:** Higher-income customers show greater average order values.  
+* **Rolling Performance:** R12 revenue highlights long-term stability across certain regions.  
+* **Weekday vs Weekend:** Weekday performance consistently outperforms weekend revenue.  
 
 ---
 
-## 🛠️ Tools & Skills
+### 📂 Access the Project
 
-- **Data Cleaning**: Excel, Python, SQL  
-- **Visualization**: Power BI, Excel  
-- **Languages**: SQL, Python (pandas, matplotlib, seaborn)  
-- **Other**: Pivot Tables, Dashboards, Analytical Writing
+* **Power BI File:** *(Add your PBIX file link here)*  
+* **Theme Files:** Included in this branch (`MinimalLightTheme.json`, `MinimalDarkTheme.json`)  
+* **Screenshots / Exports:** *(Add links if you upload visuals)*  
 
 ---
 
-## 📬 Let’s Connect!
+## 🧑‍💼 About Me
+
+I'm **Soumya Upadhyay**, a Programmatic Analyst transitioning into Data Analytics.  
+This project showcases my ability to model complex data, write optimized DAX, and create clean, user-focused dashboards.
+
+📍 IPG Mediabrands | 📚 Specializing in BI & Analytics (SQL, Python, Power BI)  
+🌍 Seeking Roles: Data Analyst | Business Analyst | BI Analyst (Singapore / Dubai / Gurgaon)
+
+---
+
+## 🔗 Let’s Connect
 
 - [LinkedIn](https://linkedin.com/in/soumyachanderupadhyay)  
-- [GitHub](https://github.com/soumya-upadhyay/)  
-- Email: soumya.upadhyay19@gmail.com
-- Instagram: [@soumvlog](https://www.instagram.com/soumvlog)  
+- [GitHub Portfolio](https://github.com/soumya-upadhyay)  
+- [Email](mailto:soumya.upadhyay19@gmail.com)
 
-If you explore any of these projects and have questions, feel free to connect or drop a message. I’d love to hear your thoughts or collaborate!
+If you have feedback, suggestions, or want to collaborate—feel free to reach out!
