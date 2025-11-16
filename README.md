@@ -95,14 +95,41 @@ This project is a comprehensive analysis of Netflix's movie and TV show data, le
 
 ---
 
-### 🐍 4. [Python EDA](link-coming-soon)
+### 📊 4. [Global Sales Insight Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Global-Sales_Report_Case-Study)
 
-**Tools**: Python (pandas, matplotlib, seaborn)  
-**Skills**: Exploratory Data Analysis, Visualization, Data Wrangling  
+**Tools**: Power BI (Power Query, DAX, Data Modeling, Visualizations)  
+**Skills**: Data Cleaning, Data Modeling, DAX, Time Intelligence, Dashboarding, Data Storytelling  
 
-Analyzed Netflix titles to understand content trends, genres, and country-wise distribution.
+This project is a comprehensive analysis of a global sales dataset, leveraging **Power BI** to uncover product performance, customer behavior, regional trends, and operational patterns. The goal was to answer key business questions about revenue drivers, high-return categories, market opportunities, and time-based performance trends. The process involved a full data analytics workflow—from modeling and DAX measure creation to developing a multi-page, story-led dashboard designed for business decision-making.
 
-📌 **Outcome**: Practiced EDA techniques and visual storytelling using Python libraries.
+---
+
+#### 🔍 Problem Statements Answered:
+
+- Which **products and categories** generate the highest revenue and profit?  
+- Which **regions and territories** contribute most to overall performance?  
+- What are the patterns in **returns**, and which products are most impacted?  
+- How do **customer demographics** influence purchasing behavior?  
+- What are the **seasonal, monthly, and weekday trends** in sales?  
+- How does performance compare across **MTD, QTD, YTD, and YoY** metrics?
+
+---
+
+#### 📌 Outcome:
+
+- Built a clean **star-schema** data model with well-defined relationships.  
+- Developed 30+ optimized **DAX measures**, including rolling windows and time intelligence.  
+- Designed an interactive, multi-page dashboard covering product, customer, territory, and time insights.  
+- Created a data-driven narrative that highlights sales patterns, return behavior, and actionable insights.
+
+---
+
+#### 🧠 Recommendations:
+
+- Focus on **top-performing product categories** to maximize revenue impact.  
+- Investigate **categories with high return rates** to reduce operational inefficiencies.  
+- Prioritize **regions with consistent YoY growth** for expansion opportunities.  
+- Use **weekday/weekend performance patterns** to refine demand forecasting and campaigns.
 
 ---
 
@@ -119,7 +146,7 @@ Worked with an e-commerce dataset to segment customers by behavior and create re
 
 ## 📌 Upcoming Projects
 
-- 🧼 Power BI Project
+- 🧼 SQL Project
 
 ---
 
