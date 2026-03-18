@@ -17,7 +17,7 @@ Each project folder contains:
 
 ---
 
-### 🛒 1. [E-Commerce Sales & Customer Behavior Analysis (SQL Case Study)]([link-to-your-ecommerce-folder](https://github.com/soumya-upadhyay/data-analytics-projects/tree/E-Commerce-Company))
+### 🛒 1. [E-Commerce Sales & Customer Behavior Analysis (SQL Case Study)]([link-to-your-ecommerce-folder](https://github.com/soumya-upadhyay/data-analytics-projects/tree/E-Commerce-Company)
 
 **Tools**: SQL (MySQL / HackerRank)  
 **Skills**: Joins, Aggregations, Subqueries, CTEs, Window Functions, Business Analysis  
