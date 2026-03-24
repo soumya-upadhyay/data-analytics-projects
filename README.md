@@ -1,142 +1,177 @@
-# 📊 Data Analytics Portfolio – Soumya Upadhyay
+# 🏬 Retail Sales & Customer Behavior Analysis (SQL Case Study)
 
-Welcome! This repository showcases a curated selection of data analytics projects I've worked on as part of my transition into the data analytics field. These projects reflect my ability to clean, analyze, and visualize data using tools like **Excel**, **SQL**, **Power BI**, and **Python**, and to derive insights that support decision-making.
+This project analyzes a retail dataset using SQL to uncover insights related to **sales performance, customer behavior, product trends, and data quality issues**.
 
-I’m currently working as a Programmatic Analyst at IPG Mediabrands, handling the **Royal Caribbean International** client, and pursuing a Data Analytics certification with Coding Ninjas. This portfolio reflects my learning journey and interest in solving real-world business problems with data.
-
----
-
-## 📁 Projects
-
-Each project folder contains:
-- Cleaned data (or link to data source)
-- Tools used and key problem statements
-- Visuals (where applicable)
-- Insights and recommendations
-- Source files (.xlsx, .sql, .ipynb, .pbix, etc.)
+The case study goes beyond basic querying by incorporating **data cleaning, transformation, and segmentation**, simulating a real-world data analytics workflow.
 
 ---
 
-### 🛒 1. [E-Commerce Sales & Customer Behavior Analysis (SQL Case Study)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/E-Commerce-Company)
+# 🔍 Business Problem
 
-**Tools**: SQL (MySQL / HackerRank)  
-**Skills**: Joins, Aggregations, Subqueries, CTEs, Window Functions, Business Analysis  
+The retail company is experiencing **stagnant growth and declining customer engagement**. Initial observations suggest:
 
-A comprehensive SQL case study analyzing an e-commerce dataset to uncover insights related to **customer behavior, product performance, sales trends, and inventory optimization**.
+- Variability in product performance  
+- Lack of effective customer segmentation  
+- Limited understanding of customer purchasing behavior  
 
-#### 🔍 Problem Statements Answered:
-
-- Which cities have the highest customer concentration?
-- How does customer engagement vary by order frequency?
-- Which product categories attract the most customers?
-- What are the month-on-month sales trends?
-- Which month saw the highest revenue decline?
-- Which products have the highest turnover rates?
-- Which products are purchased by less than 40% of customers?
-
-#### 📌 Outcome:
-
-- Wrote structured SQL queries using **CTEs, joins, and window functions (LAG)**  
-- Performed **customer segmentation and cohort-style analysis**  
-- Identified key **sales patterns and operational inefficiencies**  
-- Translated raw query outputs into **business insights and recommendations**
-
-#### 🧠 Key Insights:
-
-- Delhi, Chennai, and Jaipur are the highest customer concentration markets  
-- Occasional shoppers form the largest segment → strong retention opportunity  
-- Electronics category has the highest customer reach  
-- Sales fluctuate significantly, with a sharp drop in February 2024  
-- Certain products show **low engagement (<40% customer reach)** → improvement opportunity  
+The goal of this project is to leverage SQL to extract insights that can improve **marketing strategies, inventory planning, and customer retention**.
 
 ---
 
-### ✅ 2. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study)
+# 🎯 Objectives
 
-**Tools**: Excel  
-**Skills**: Data cleaning, Pivot Tables, Trend Analysis, Dashboarding  
-
-A deep dive into India's Consumer Price Index (CPI) data. Answered problem statements such as:
-- Which categories contributed the most to inflation?
-- How did COVID-19 impact inflation?
-- Monthly shifts in the food basket
-- Influence of global events like oil price hikes on India's CPI
-
-📌 **Outcome**: Created a clean dashboard and summary with insights and recommendations.
+- Clean and prepare raw transactional data for analysis  
+- Identify high-performing and low-performing products  
+- Segment customers based on purchasing behavior  
+- Analyze sales trends and growth patterns  
+- Generate insights to improve business decision-making  
 
 ---
 
-### ✅ 3. [US Healthcare Cost & Utilization Analysis](https://github.com/soumya-upadhyay/data-analytics-projects/tree/US-HealthCare-CaseStudy)
+# 🗂 Dataset Description
 
-**Tools**: Excel (Power Query, Pivot Tables)  
-**Skills**: Data Cleaning, Power Query, Data Analysis, Charting, Insight Generation  
+The dataset consists of three key tables:
 
-An exploratory case study of US healthcare cost and utilization data to identify patterns in diseases, demographics, medication usage, and hospital stay durations.
+### Sales Transaction
+- TransactionID  
+- CustomerID  
+- ProductID  
+- QuantityPurchased  
+- TransactionDate  
+- Price  
 
-#### 🔍 Problem Statements Answered:
-- Which diseases contribute the highest to overall healthcare spending?
-- What trends exist between age, gender, and disease type?
-- How does medication usage vary across patient groups?
-- Are short hospital stays becoming more frequent, and for which conditions?
+### Customer Profiles
+- CustomerID  
+- Age  
+- Gender  
+- Location  
+- JoinDate  
 
-#### 📌 Outcome:
-- Cleaned and transformed data using **Power Query**
-- Used **Pivot Tables** for multi-dimensional analysis
-- Created visual summaries and dashboards
-
-#### 🧠 Recommendations:
-- Implement a **disease-centric resource allocation strategy**
-- Optimize processes for **high-volume, short-duration hospital stays**
-
----
-
-### 📊 4. [Netflix Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Netflix-Case-Study)
-
-**Tools**: Power BI (Power Query, DAX, Visualizations)  
-**Skills**: Data Cleaning, Data Modeling, Data Analysis, Dashboarding, Data Storytelling  
-
-A comprehensive analysis of Netflix's movie and TV show data to uncover trends and audience insights through an interactive dashboard.
+### Product Inventory
+- ProductID  
+- ProductName  
+- Category  
+- StockLevel  
+- Price  
 
 ---
 
-### 📊 5. [Global Sales Insight Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Global-Sales_Report_Case-Study)
+# 🧠 Analytical Approach
 
-**Tools**: Power BI (Power Query, DAX, Data Modeling, Visualizations)  
-**Skills**: Data Cleaning, Data Modeling, DAX, Time Intelligence, Dashboarding  
+## 1️⃣ Data Cleaning
 
-A full-scale analysis of global sales data to identify revenue drivers, customer trends, and operational insights.
+Performed multiple data cleaning operations:
 
----
-
-### 🔜 6. Retail Sales & Customer Analysis (SQL Case Study)
-
-**Status**: In Progress  
-
-This upcoming project will focus on analyzing a **retail dataset using SQL**, covering:
-
-- Customer segmentation and lifetime value
-- Product performance and basket analysis
-- Sales trends and store-level performance
-- Advanced SQL techniques for business insights
-
-📌 This project will further strengthen my SQL portfolio with **deeper business problem-solving and real-world retail scenarios**.
+- Removed duplicate transactions  
+- Corrected mismatched product prices  
+- Replaced NULL values with 'Unknown'  
+- Converted date fields from text to proper date format  
 
 ---
 
-## 🛠️ Tools & Skills
+## 2️⃣ Sales Performance Analysis
 
-- **Data Cleaning**: Excel, Python, SQL  
-- **Visualization**: Power BI, Excel  
-- **Languages**: SQL, Python (pandas, matplotlib, seaborn)  
-- **Other**: Pivot Tables, Dashboards, Analytical Thinking, Business Problem Solving
+- Calculated total sales and units sold per product  
+- Identified top 10 high-revenue products  
+- Identified low-performing products  
 
 ---
 
-## 📬 Let’s Connect!
+## 3️⃣ Customer Behavior Analysis
 
-- [LinkedIn](https://linkedin.com/in/soumyachanderupadhyay)  
-- [GitHub](https://github.com/soumya-upadhyay/)  
+- Analyzed purchase frequency per customer  
+- Identified:
+  - High-frequency, high-value customers  
+  - Occasional/low-frequency customers  
+- Analyzed repeat purchases across products  
+
+---
+
+## 4️⃣ Category-Level Insights
+
+- Evaluated product category performance  
+- Compared total sales and units sold across categories  
+- Identified categories needing marketing focus  
+
+---
+
+## 5️⃣ Sales Trend Analysis
+
+- Analyzed daily and monthly sales trends  
+- Calculated month-on-month growth rate using **window functions (LAG)**  
+- Identified patterns in revenue fluctuations  
+
+---
+
+## 6️⃣ Customer Segmentation
+
+Customers were segmented based on total quantity purchased:
+
+| Total Quantity | Segment |
+|---------------|--------|
+| 0             | No Orders |
+| 1–10          | Low |
+| 11–30         | Medium |
+| >30           | High Value |
+
+This segmentation helps target customers for **personalized marketing strategies**.
+
+---
+
+# 📊 Key Insights
+
+- A small group of customers contributes disproportionately to total revenue  
+- Several products show **low sales volume**, indicating potential inventory inefficiencies  
+- Certain categories outperform others, suggesting **focused marketing opportunities**  
+- Sales trends show **fluctuations rather than steady growth**, indicating inconsistent demand  
+- Data inconsistencies (duplicates, incorrect pricing, null values) highlight the importance of **data cleaning before analysis**
+
+---
+
+# 📌 Strategic Recommendations
+
+- Focus retention strategies on **high-value customers**  
+- Improve visibility and promotion for **low-performing products**  
+- Optimize inventory for **high-demand products**  
+- Use customer segmentation for **targeted marketing campaigns**  
+- Implement stronger **data validation processes** to avoid inconsistencies  
+
+---
+
+# 🧰 SQL Skills Demonstrated
+
+- Data Cleaning (UPDATE, DELETE, CREATE TABLE)
+- Aggregations (`SUM`, `COUNT`)
+- Joins (`INNER JOIN`, `LEFT JOIN`)
+- Subqueries
+- Window Functions (`LAG`)
+- CTEs (Common Table Expressions)
+- Date Transformation (`STR_TO_DATE`, `DATE_FORMAT`)
+- Customer Segmentation using `CASE WHEN`
+
+---
+
+# 🧑‍💼 About Me
+
+I’m **Soumya Upadhyay**, a Programmatic Analyst transitioning into Data Analytics.
+
+This project demonstrates my ability to:
+
+- Clean and transform raw data using SQL  
+- Perform end-to-end data analysis  
+- Translate business problems into analytical queries  
+- Generate actionable insights  
+
+📍 Currently: IPG Mediabrands  
+📚 Learning: SQL, Python, Power BI  
+🌍 Seeking: Data Analyst roles  
+
+---
+
+# 🔗 Let’s Connect
+
+- LinkedIn: https://linkedin.com/in/soumyachanderupadhyay  
+- GitHub: https://github.com/soumya-upadhyay  
 - Email: soumya.upadhyay19@gmail.com  
-- Instagram: [@soumvlog](https://www.instagram.com/soumvlog)  
 
-If you explore any of these projects and have questions, feel free to connect or drop a message. I’d love to hear your thoughts or collaborate!
+If you found this project useful or have feedback, feel free to connect!
