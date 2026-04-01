@@ -1,0 +1,78 @@
+# 📌 Business Questions
+
+This project focuses on solving key retail business problems using SQL across data cleaning, customer behavior, and sales analysis.
+
+---
+
+## 🧹 Data Cleaning & Preparation
+
+1. How many duplicate transactions exist in the dataset?
+2. How can duplicate records be removed while preserving unique transactions?
+3. Are there discrepancies between transaction prices and inventory prices?
+4. How can incorrect prices be identified and corrected?
+5. How many NULL values exist in customer data (e.g., location)?
+6. How can missing values be handled to ensure data consistency?
+7. How can date fields be converted from text format into proper date format?
+
+---
+
+## 📊 Sales Performance Analysis
+
+8. What is the total quantity sold and total revenue generated per product?
+9. Which products generate the highest revenue?
+10. Which products have the lowest sales volume despite being active?
+
+---
+
+## 👥 Customer Behavior Analysis
+
+11. How many transactions does each customer make?
+12. Who are the high-frequency, high-value customers?
+13. Which customers have low purchase frequency (occasional buyers)?
+14. Which customers repeatedly purchase the same products?
+
+---
+
+## 🏷 Product & Category Analysis
+
+15. How do different product categories perform in terms of:
+   - Total units sold  
+   - Total revenue  
+
+16. Which categories contribute the most to overall sales?
+
+---
+
+## 📈 Sales Trend Analysis
+
+17. What is the daily sales trend in terms of:
+   - Number of transactions  
+   - Units sold  
+   - Revenue  
+
+18. What is the month-on-month growth rate of sales?
+
+---
+
+## 💎 Customer Segmentation
+
+19. How can customers be segmented based on total quantity purchased?
+
+Segments:
+- 0 → No Orders  
+- 1–10 → Low  
+- 11–30 → Medium  
+- >30 → High Value  
+
+20. How many customers fall into each segment?
+
+---
+
+## 🎯 Business Objective
+
+To use SQL-driven analysis to:
+
+- Improve customer segmentation  
+- Identify high and low-performing products  
+- Optimize inventory and marketing strategies  
+- Enhance customer retention and engagement  
