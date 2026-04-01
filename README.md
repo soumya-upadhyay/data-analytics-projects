@@ -51,84 +51,91 @@ A comprehensive SQL case study analyzing an e-commerce dataset to uncover insigh
 
 ---
 
-### ✅ 2. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study)
+### 🏬 2. [Retail Sales & Customer Behavior Analysis (SQL Case Study)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/retail_analysis)
+
+**Tools**: SQL (MySQL)  
+**Skills**: Data Cleaning, CTEs, Joins, Aggregations, Window Functions, Segmentation  
+
+An end-to-end SQL project focused on **data cleaning, transformation, and advanced analysis** of a retail dataset to uncover insights related to **sales performance, customer behavior, and product trends**.
+
+#### 🔍 Problem Statements Answered:
+
+- How can duplicate and inconsistent data be cleaned and standardized?
+- Which products and categories drive the most revenue?
+- How does customer purchase frequency vary across the dataset?
+- Who are the high-value vs low-frequency customers?
+- What are the daily and monthly sales trends?
+- How does sales growth change month-on-month?
+- How can customers be segmented for targeted marketing?
+
+#### 📌 Outcome:
+
+- Cleaned raw transactional data (duplicates, null values, incorrect pricing, date formats)  
+- Built structured SQL queries using **CTEs and window functions (LAG)**  
+- Performed **customer segmentation based on purchase behavior**  
+- Identified **high-performing products and revenue drivers**  
+- Delivered **business-focused insights and strategic recommendations**
+
+#### 🧠 Key Insights:
+
+- Revenue is concentrated among a small group of high-performing products  
+- A large portion of customers are low-frequency buyers → retention opportunity  
+- High-value customers contribute disproportionately to total sales  
+- Sales trends fluctuate, indicating inconsistent demand patterns  
+- Data quality issues highlight the importance of preprocessing before analysis  
+
+---
+
+### ✅ 3. [CPI Inflation Trend Analysis (2017–2023)](https://github.com/soumya-upadhyay/data-analytics-projects/tree/CPI-Inflation-Case-Study)
 
 **Tools**: Excel  
 **Skills**: Data cleaning, Pivot Tables, Trend Analysis, Dashboarding  
 
-A deep dive into India's Consumer Price Index (CPI) data. Answered problem statements such as:
-- Which categories contributed the most to inflation?
-- How did COVID-19 impact inflation?
-- Monthly shifts in the food basket
-- Influence of global events like oil price hikes on India's CPI
+A deep dive into India's Consumer Price Index (CPI) data.
 
 📌 **Outcome**: Created a clean dashboard and summary with insights and recommendations.
 
 ---
 
-### ✅ 3. [US Healthcare Cost & Utilization Analysis](https://github.com/soumya-upadhyay/data-analytics-projects/tree/US-HealthCare-CaseStudy)
+### ✅ 4. [US Healthcare Cost & Utilization Analysis](https://github.com/soumya-upadhyay/data-analytics-projects/tree/US-HealthCare-CaseStudy)
 
 **Tools**: Excel (Power Query, Pivot Tables)  
-**Skills**: Data Cleaning, Power Query, Data Analysis, Charting, Insight Generation  
+**Skills**: Data Cleaning, Power Query, Data Analysis, Charting  
 
-An exploratory case study of US healthcare cost and utilization data to identify patterns in diseases, demographics, medication usage, and hospital stay durations.
-
-#### 🔍 Problem Statements Answered:
-- Which diseases contribute the highest to overall healthcare spending?
-- What trends exist between age, gender, and disease type?
-- How does medication usage vary across patient groups?
-- Are short hospital stays becoming more frequent, and for which conditions?
-
-#### 📌 Outcome:
-- Cleaned and transformed data using **Power Query**
-- Used **Pivot Tables** for multi-dimensional analysis
-- Created visual summaries and dashboards
-
-#### 🧠 Recommendations:
-- Implement a **disease-centric resource allocation strategy**
-- Optimize processes for **high-volume, short-duration hospital stays**
+An exploratory case study analyzing healthcare cost and utilization patterns.
 
 ---
 
-### 📊 4. [Netflix Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Netflix-Case-Study)
+### 📊 5. [Netflix Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Netflix-Case-Study)
 
-**Tools**: Power BI (Power Query, DAX, Visualizations)  
-**Skills**: Data Cleaning, Data Modeling, Data Analysis, Dashboarding, Data Storytelling  
+**Tools**: Power BI  
+**Skills**: Data Modeling, DAX, Dashboarding  
 
-A comprehensive analysis of Netflix's movie and TV show data to uncover trends and audience insights through an interactive dashboard.
-
----
-
-### 📊 5. [Global Sales Insight Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Global-Sales_Report_Case-Study)
-
-**Tools**: Power BI (Power Query, DAX, Data Modeling, Visualizations)  
-**Skills**: Data Cleaning, Data Modeling, DAX, Time Intelligence, Dashboarding  
-
-A full-scale analysis of global sales data to identify revenue drivers, customer trends, and operational insights.
+Interactive dashboard analyzing Netflix content trends and performance.
 
 ---
 
-### 🔜 6. Retail Sales & Customer Analysis (SQL Case Study)
+### 📊 6. [Global Sales Insight Dashboard using Power BI](https://github.com/soumya-upadhyay/data-analytics-projects/tree/Global-Sales_Report_Case-Study)
 
-**Status**: In Progress  
+**Tools**: Power BI  
+**Skills**: Data Modeling, DAX, Time Intelligence  
 
-This upcoming project will focus on analyzing a **retail dataset using SQL**, covering:
+Comprehensive global sales analysis focusing on revenue, returns, and customer trends.
 
-- Customer segmentation and lifetime value
-- Product performance and basket analysis
-- Sales trends and store-level performance
-- Advanced SQL techniques for business insights
+---
 
-📌 This project will further strengthen my SQL portfolio with **deeper business problem-solving and real-world retail scenarios**.
+## 📌 Upcoming Projects
+
+- 🐍 Python-based Data Analysis Project
 
 ---
 
 ## 🛠️ Tools & Skills
 
-- **Data Cleaning**: Excel, Python, SQL  
+- **Data Cleaning**: Excel, SQL, Python  
 - **Visualization**: Power BI, Excel  
 - **Languages**: SQL, Python (pandas, matplotlib, seaborn)  
-- **Other**: Pivot Tables, Dashboards, Analytical Thinking, Business Problem Solving
+- **Other**: CTEs, Window Functions, Segmentation, Analytical Thinking  
 
 ---
 
